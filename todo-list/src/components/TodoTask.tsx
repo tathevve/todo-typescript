@@ -16,7 +16,7 @@ const TodoTask = ({ task, completeTask}: Props) => {
         <span> {task?.taskName}</span> 
         <span>{task?.deadline} </span>
       </div>
-      <button onClick={() => completeTask(task?.taskName)}>{task?.trash ?? "cccc"}</button>
+      <button onClick={() => completeTask(task?.taskName)}>{task?.trash ?? "Delete"}</button>
       
       
     </div>

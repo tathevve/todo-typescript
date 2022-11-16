@@ -74,7 +74,7 @@ const App: FC = () => {
               setTaskName("");
             }
           }>yes</button>
-          <h3>alo</h3>
+          <h3>Delete the task?</h3>
         </div> : ""
 
       }
